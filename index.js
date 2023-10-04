@@ -3,7 +3,7 @@ const express = require('express')
 const cors = require('cors')
 
 const token = '6486452205:AAHuFjqKYni798t96Ff_RkwZUGAg4SfieuI'
-const webAppUrl = 'telegram-api-react2.netlify.app/'
+const webAppUrl = 'https://telegram-api-react2.netlify.app/'
 
 const bot = new TelegramBot(token, { polling: true });
 const app = express()
